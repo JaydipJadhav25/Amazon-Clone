@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: none;
+}
+.navlogo{
+height: 50px;
+width: 100px;
+}
+.logo{
+    background-image: url("logo2.png");
+    background-size: cover;
+
+    
+    height: 50px;
+width: 100px;
+}
+.border{
+
+    border: 2px solid transparent;
+}
+.border :hover{
+
+    border : 1px solid blanchedalmond ;
+}
+.bor{
+
+    border: 2px solid transparent;
+
+}
+.bor  :hover{
+    border : 1px solid black ;
+
+}
+.add-1{
+    font-size: 0.80rem;
+    margin-left: 13px;
+}
+.add-2{
+    font-size: 1rem;
+    margin-left: 5px;
+    
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color :pink;
+    width: 600px;
+    height: 40px;
+    /* border-radius: 5px; */
+}
+.search-selet{
+
+    background-color: #f3f3f3;
+    width:50px ;
+    text-align: center;
+}
+.search-input{
+
+width: 100%;
+font-size: 1rem;
+
+}
+.nav-bar:hover{
+
+border: 1px solid orange;
+box-shadow: 1px 1px 7px 1px rgb(172, 131, 131);
+
+
+}
+.search-icon{
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f1111;
+    font-size: 1.5rem;
+    background-color: rgb(255, 128, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+/* box 4 and 5 */
+span{
+    font-size: 0.7rem;
+}
+.nav-sen{
+
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+i{
+ font-size: 25px;
+   
+}
+.nav-crat{ 
+
+    font-size: 0.6rem;
+
+    /* font-weight: 700; */
+    text-align: center;
+    font-weight: 700;
+}  
+
+/* second panel  */
+.panel{
+
+height: 40px;
+background-color:  #222f3d;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white
+
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left:15px ;
+}
+.panel-ops p{
+ width: 70%;
+ font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.all{
+    margin-left: 10px;
+    font-size: 1rem;
+}
+/* hero section */
+.hero{
+
+background-image: url("hero.jpg");
+background-size: cover;
+height: 380px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.hero-msg{
+    background-color: #f3f3f3;
+    color: black;
+    height: 40px;
+   display: flex;
+align-items: center;
+   justify-content: center;
+   font-size: 0.85rem;
+   width: 90%;
+   margin: 25px;
+}
+
+/* shoping section */
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-image: url("hero.jpg");
+    background-size: auto; */
+    background-color: #e2e7e6;
+    
+}
+
+.box{
+    /* display: inline-block; */
+    height: 400px;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px ;
+  
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-content{
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+.box-content :hover{
+
+    border: 1px solid white;
+box-shadow: 1px 1px 7px 1px rgb(232, 219, 219);
+
+
+
+
+}
+.box-content h2{
+text-transform: capitalize;
+
+}
+.box-content p {
+
+    color: #007185;
+}
+
+
+ /* bottom section */
+ footer{
+
+    margin-top: 15px;
+ }
+ .foot-plane{
+   /* margin-top: 10px; */
+    text-align: center;
+ background-color: #37475a;
+ text-transform: capitalize;
+ color: white;
+ height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.85rem;
+/* text-decoration: underline; */
+ }
+.foot-plane2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+ul li {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    
+}
+ul p{
+
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+ 
+/* last panel */
+.foot-plane3{
+
+background-color:#222f3d ;
+border-top: 0.1px solid white;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.lastfoot{
+    background-color:#38434f ;
+    /* border-top: 0.2px solid white; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lastfoot p {
+    color: white;
+    text-transform: capitalize;
+}
+
+
+
+
+.last1{
+    background-color:#38434f ;
+    /* border-top: 0.2px solid white; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color: white;
+    font-weight: 500px;
+}
